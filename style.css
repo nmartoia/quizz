@@ -1,0 +1,60 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 22px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+}
+li{
+    list-style:none;
+}
+div{
+   margin: 10px auto;
+   width: 1000px; 
+   border: 1px solid;
+   box-shadow: rgb(168, 167, 167) ;
+   border-radius: 10px;
+}
+div h2, div p{
+margin: 1rem;
+}
+article{
+    margin: 10px auto;
+    width: 1000px; 
+    border: 1px solid;
+    box-shadow: rgb(168, 167, 167) ;
+    border-radius: 10px;
+ }
+ article h2, article p{
+ margin: 1rem;
+ }
+input{
+    margin-right: 10px;
+}
+h1{
+    margin: 0 auto;
+    width: 295px;
+}
+#valid{
+    text-align: center;
+}
+#valid p{
+    margin: 1rem;
+}
+button{
+    margin: 0 auto;
+    padding: 1rem 1rem 30px 1rem;
+    height: 2rem;
+    display: block;
+}
+.br{
+    background: rgb(85, 245, 85);
+}
+.mr{
+    background:rgb(241, 61, 61) ;
+}
